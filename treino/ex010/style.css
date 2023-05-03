@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(189, 29, 204)
+}
+
+h1 {
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 33px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(49, 11, 66);
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+

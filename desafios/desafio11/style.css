@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+main {
+    max-width: 1370px;
+    min-width: 325px;
+    margin: 0px 0px 0px 0px;
+}
+#principal{
+    width: 102%;
+    height: 689px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: -8px 0px 0px -12px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: -590px;
+    padding-right: 40px;
+}
