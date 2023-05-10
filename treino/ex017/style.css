@@ -70,14 +70,18 @@ nav > a:hover {
 main {
     background-color: white;
     min-width: 320px;
-    max-width: 1030px;
+    max-width: 1020px;
     margin: auto;
     padding: 15px;
+    line-height: 2em;
+    border-radius: 0px 0px 10px 10px;
 }
 
 main h1 {
     font-family: var(--font-android);
+    font-size: 27px;
     color: var(--cor4);
+    padding: 8px;
 }
 
 main h2 {
@@ -85,13 +89,14 @@ main h2 {
     font-size: 18px;
     text-indent: 7px;
     color: var(--cor4);
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var(--cor1), transparent)
 }
 
 main p {
     font-family: var(--font-padrão);
     text-indent: 20px;
     text-align: justify;
+    padding: 10px;
 }
 
 main strong {
@@ -115,4 +120,29 @@ main a::after{
 
 main a:hover {
     text-decoration: underline;
+}
+
+img {
+    width: 100%;
+}
+
+main .pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main aside {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main aside h3 {
+    background-color: var(--cor4);
+    color: white;
+    font-family: var(--font-padrão);
+    padding: 10px 10px 13px 10px;
+    margin: -22px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
 }
